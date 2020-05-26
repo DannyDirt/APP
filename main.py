@@ -26,7 +26,7 @@ class SigninWindow(BoxLayout):
                 info.text = '[color=#FF0000]Invalid username or password required[/color]'
 class SignApp(App):
     def build(self):
-        return SigninWindow()
+        return SigninWindow() 
 
 if __name__ == '__main__':
     SignApp().run()
